@@ -9,4 +9,6 @@ class Album {
     }
 }
 
-module.exports = Album;
+module.exports = {
+    Album
+}

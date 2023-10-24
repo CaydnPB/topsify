@@ -20,4 +20,14 @@ class Song {
     }
 }
 
-module.exports = Song;
+class Anthem extends Song {
+    constructor(title, duration, affiliation) {
+        super(title, duration);
+        this.affiliation = affiliation;
+    }
+}
+
+module.exports = {
+    Song,
+    Anthem
+}
